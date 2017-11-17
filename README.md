@@ -1,4 +1,4 @@
-## **Kubernetes tutorial from scratch** ##
+## **Kubernetes Basics** ##
 
 **Components of Kubernetes cluster**
 
@@ -15,4 +15,6 @@
 6) KubeDNS / SkyDNS: Kubectl allows you to launch containers on the cluster. When we started the Master we defined a DNS IP which we'll now launch. Because Kubernetes uses etcd, it uses the related DNS service called SkyDNS.The DNS allows containers to communicate based on well-known names instead of IP addresses.
 
 7) Kube UI: Kubernetes has a UI that can be used to visualize the state of the cluster, similar to Kubectl.
+
+
 
